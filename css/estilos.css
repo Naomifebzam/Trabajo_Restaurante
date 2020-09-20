@@ -3,3 +3,21 @@
     src: url('recursos/fonts/caveat.woff2');
 }
 
+
+
+#b1 {
+    background-image: url("../recursos/imagenes/fondo1.jpg" ), url("../recursos/imagenes/logo-tatin.png");
+    background-position: center, center;
+    height: 250px, 75px;
+    background-repeat: no-repeat, no-repeat; 
+    position: absolute, relative; 
+    width: 100%, 75px;
+    
+}
+
+#b2{
+
+}
+
+
+
