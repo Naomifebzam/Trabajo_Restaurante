@@ -22,7 +22,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-   
+
 
 }
 
@@ -71,43 +71,73 @@ body {
     position: relative;
 }
 
-.letraVerde{ /*Para poner las letras verdes */
+.letraVerde {
+    /*Para poner las letras verdes */
     color: rgb(36, 114, 104);
 }
 
-#posIzAqA{ /*Para poner texto a la izquierda y abajo */
-position: relative;
-display: block;
+#posIzAqA {
+    /*Para poner texto a la izquierda y abajo */
+    position: relative;
+    display: block;
 
 }
 
-#posCen{ /*Para poner texto centrado */
+#posCen {
+    /*Para poner texto centrado */
     text-align: center;
-    }
+}
 
-#fotosArriba{ /* Para poner las fotos a la derecha */
+#fotosArriba {
+    /* Para poner las fotos a la derecha */
     display: block;
     position: relative;
     left: 870px;
     font-size: 0px;
-    
+
 
 }
 
-#margen1{ /* margen primera foto */
+#margen1 {
+    /* margen primera foto */
     margin-right: 30px;
     display: inline-block;
-    
+
 }
 
-#fotosAbajo{ /* Para poner las fotos a la derecha */
+#fotosAbajo {
+    /* Para poner las fotos a la derecha */
     display: block;
     margin: 0 auto;
     position: relative;
     left: 120px;
 }
 
+#contenedor3{
+    width: 100%;
+    display: block;
+    background-image: url(../recursos/imagenes/fondo2.jpg);
+    font-family: mifuente;
+    font-style: italic;
+    background-position: center;
+    height: 250px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
 
-
-
-
+#contenedor3:before {
+    /* Para añadirle la sombra a la imagen del primer div*/
+    content: '';
+    position: absolute;
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+    margin: 0 auto ;
+}
