@@ -124,6 +124,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
+    
 }
 
 #contenedor3:before {
@@ -140,4 +141,59 @@ body {
     right: 0;
     opacity: 0.7;
     margin: 0 auto ;
+    
 }
+
+
+figure {
+	
+    padding-left: 900px;
+    border-radius: 100%;
+    overflow: hidden;
+    
+    width: 90px;
+    height: 60px;
+    position: relative;
+    
+}
+
+figure img {
+    
+    display: inline-block;
+    width: 80px;
+    height: 60px;
+    
+    
+} 
+
+#txt2 {
+    /* Es el div de abajo*/
+    font-family: miFuente;
+    text-align: center;
+    position: relative;
+    
+}
+
+h3{
+    color: yellow;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    
+}
+
+#footerh5{
+    color: yellow;
+    text-align: center;
+    position: relative;
+    font-style: italic;
+
+}
+
+#foot{
+    text-align: center;
+    position: relative;
+
+
+}
+
